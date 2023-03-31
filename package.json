@@ -1,0 +1,26 @@
+{
+  "name": "db_frontend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "index": "node index.js",
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cccbeginner/db_frontend.git"
+  },
+  "author": "cccbeginner",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cccbeginner/db_frontend/issues"
+  },
+  "homepage": "https://github.com/cccbeginner/db_frontend#readme",
+  "dependencies": {
+    "ejs": "^3.1.9",
+    "els": "^0.1.0-alpha",
+    "express": "^4.18.2",
+    "jake": "^10.8.5"
+  }
+}
