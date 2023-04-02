@@ -1,372 +1,267 @@
 <!DOCTYPE html>
-<html>
-
-  <head>
-    <meta http-equiv=X-UA-Compatible content="IE=edge,chrome=1">
-    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
-    <meta charset="utf-8" />
-    <title>Bootstrap模板_响应式网站模板 - Bootstrap模板库</title>
-    <meta name="keywords" content="Bootstrap,Bootstrap模板,Bootstrap插件" />
-    <meta name="description" content="Bootstrap模板库—汇聚国内外顶尖Bootstrap模板设计作品和Bootstrap插件，并提供网站模板在线预览及源码下载。全球顶尖网页前端设计作品，高效套用模板，尽在bootstrapmb.com" />
-    <link rel="Shortcut Icon" href="/content/images/fav.png">
-    <link href="http://www.bootstrapmb.com/Content/theme?v=9ZRo0Qvph1sxtapN7PRaWJ9aWzy-FeoP7wu7EhAxlHA1" rel="stylesheet" />
-    <script src="http://www.bootstrapmb.com/bundles/jquery?v=6bFaskkKy8kNUWG98NGxkmWTG_dt9fDDLxJ3Wd0QxLg1"></script>
-  </head>
-
-  <body>
-    <div class="header">
-      <div class="header_nav">
-        <div class="fl">
-          <div class="logo"><a href="/" title="Bootstrap模板库">Bootstrap模板库</a></div>
-          <ul class="sys_nav">
-            <li><a class="navhome" href="/"><i class="icon icon-home"></i>首页</a></li>
-            <li class="cateall "><a class="nav " href="/muban" title="Bootstrap模板分类"><i class="icon icon-fuzhiyemian"></i>模板</a>
-              <ul class="course_tip big">
-                <li class="course_tip_body"><a href="/muban/houtai"><i class="icon icon-nav_houtai"></i>后台管理</a><a href="/muban/qiye"><i class="icon icon-nav_qiye"></i>企业网站</a><a href="/muban/canyin"><i class="icon icon-nav_canyin"></i>餐饮娱乐</a><a href="/muban/chuangxin"><i class="icon icon-nav_chuangyi"></i>创意作品集</a><a href="/muban/shouji"><i class="icon icon-nav_shouji"></i>手机移动端</a><a href="/muban/feiyingli"><i class="icon icon-nav_cishan"></i>非盈利组织</a><a href="/muban/geren"><i class="icon icon-nav_geren"></i>个人网站/博客</a><a href="/muban/dianshang"><i class="icon icon-nav_shangcheng"></i>电子商务</a><a href="/muban/comingsoon"><i class="icon icon-nav_404"></i>即将上线/404</a><a href="/muban/hunli"><i class="icon icon-nav_hunli"></i>婚礼/婚纱摄影</a><a href="/muban/yiliao"><i class="icon icon-jiankang"></i>医疗/健康</a><a href="/muban/dashuju"><i class="icon icon-nav_dashuju"></i>大数据</a><a href="/muban/jiaoyu"><i class="icon icon-jiaoyu"></i>教育培训</a><a href="/muban/landingpage"><i class="icon icon-yingxiao"></i>着陆页引导</a></li>
-              </ul>
-            </li>
-            <li class="cateall"><a class="nav" href="/chajian"><i class="icon icon-daima"></i>插件</a>
-              <ul class="course_tip big">
-                <li class="course_tip_body "><a href="/chajian/loading"><i class="icon icon-nav_loading"></i>加载和上传</a><a href="/chajian/layer"><i class="icon icon-nav_alert"></i>提示和弹出层</a><a href="/chajian/media"><i class="icon icon-nav_img"></i>图像和媒体</a><a href="/chajian/nav"><i class="icon icon-nav_caidan"></i>导航和菜单</a><a href="/chajian/layout"><i class="icon icon-nav_buju"></i>背景和布局</a><a href="/chajian/time"><i class="icon icon-nav_time"></i>时间</a><a href="/chajian/form"><i class="icon icon-nav_form"></i>表单和按钮</a><a href="/chajian/select"><i class="icon icon-nav_select"></i>选择和筛选</a><a href="/chajian/slider"><i class="icon icon-nav_sllider"></i>轮播和切换</a><a href="/chajian/charts"><i class="icon icon-nav_charts"></i>评级和图表</a><a href="/chajian/css3"><i class="icon icon-nav_css3"></i>CSS3动画</a><a href="/muban/css"><i class="icon icon-nav_img"></i>CSS画图</a><a href="/chajian/svg"><i class="icon icon-nav_svg"></i>SVG动画</a><a href="/chajian/canvas"><i class="icon icon-nav_canvas"></i>Canvas动画</a><a href="/chajian/game"><i class="icon icon-nav_jsgame"></i>JS小游戏</a><a href="/chajian/vuejs"><i class="icon icon-nav_vue"></i>VueJs插件</a><a href="/chajian/apphtml"><i class="icon icon-nav_shouji"></i>手机端页面</a><a href="/chajian/jscss"><i class="icon icon-nav_qita"></i>其它</a></li>
-              </ul>
-            </li>
-            <li><a class="nav" href="/svg"><i class="icon icon-chatu"></i>插图</a></li>
-            <li><a class="nav" href="/icon"><i class="icon icon-xiaotubiao"></i>图标</a></li>
-            <li class="cateall"><a class="nav more" href="/source/wordpress"><i class="icon icon-msnui-more-copy"></i></a>
-              <ul class="course_tip small">
-                <li class="course_tip_body"><a href="/source/wordpress">WordPress模板</a><a href="/popular">当前最流行</a><a href="/album">专辑</a></li>
-              </ul>
-            </li>
-          </ul>
-        </div>
-        <div class="fr">
-          <div class="links_log"><a class="btnlogin" href="javascript:" title="登录"><i class="icon icon-user"></i></a></div>
-        </div>
-      </div>
-    </div>
-    <div class="post-main-slider"><canvas id="canvas"></canvas>
-      <script id="jscanvas" src="/Content/js/canvas/1.js"></script>
-      <div class="slidermain">
-        <div class="imgContainer"><a class="image-wrapper active" href="/muban/houtai"><img src="http://imgs.bootstrapmb.com/content/images/slider/10.png"> 一大波管理后台模板</a><a class="image-wrapper" href="/muban/dashuju"><img src="http://imgs.bootstrapmb.com/content/images/slider/14.png"> 大数据统计分析模板</a>
-          <div class="controls">
-            <div class="dot active"></div>
-            <div class="dot"></div>
-          </div>
-        </div>
-        <div class="brand">
-          <div class="maxim">做网页 · 不设计</div>
-          <div class="info">高端HTML模板</div>
-          <div class="info">学会偷懒 事半功倍</div>
-          <div class="home-search-wrap">
-            <form method="get" class="search-form" action="/search"><input type="text" name="keyword" class="search-text" placeholder="搜索" autocomplete="off" maxlength="10" /><button type="button" class="search-button"><i class="icon icon-sousuo" title="搜索"></i></button>
-              <div class="search-bg"></div>
-              <div class="search-sug"></div>
-            </form>
-          </div>
-        </div>
-      </div>
-      <div class="quik-box"><a href="/search?keyword=bootstrap" class="browse-item"><img src="/Content/images/logo/1.png" title="Bootstrap"></a><a href="/search?keyword=angular" class="browse-item"><img src="/Content/images/logo/2.png" title="Angular"></a><a href="/search?keyword=vue" class="browse-item"><img src="/Content/images/logo/3.png" title="Vue"></a><a href="/search?keyword=react" class="browse-item"><img src="/Content/images/logo/4.png" title="React"></a><a href="/search?keyword=laravel" class="browse-item"><img src="/Content/images/logo/6.png" title="Laravel"></a><a href="/search?keyword=framework7" class="browse-item"><img src="/Content/images/logo/5.png" title="Framework7"></a></div>
-    </div>
-    <div class="main">
-      <div class="mognews" id="breakingnews1"><i class="icon icon-shengyin laba sm"></i>
-        <ul></ul>
-        <div class="bn-arrows"><span class="bn-arrows-left"><i class="icon icon-xiangzuojiantou"></i></span><span class="bn-arrows-right"><i class="icon icon-xiangyoujiantou"></i></span></div>
-      </div>
-      <div class="item-list">
-        <div class="item-list tip_empty">
-          <div class="item-box">
-            <div class="item-box_imageContainer"><a href="/item/13635" target="_blank"><img alt="整形外科医院网站HTML5模板" class="cover" width="300" src="http://imgs.bootstrapmb.com/2023/3/310848038.jpg"></a>
-              <div class="tagList-module"><a href="/tag/zhengxingyiyuan">整形医院</a><a href="/tag/zhengrongwaike">整容外科</a><a href="/tag/zhensuo">诊所</a><a href="/tag/sirenyisheng">私人医生</a><a href="/tag/yiyuan">医院</a><a href="/tag/vamary">vamary</a></div>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Shop Homepage - Start Bootstrap Template</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="/assets/favicon.ico" />
+        <!-- Bootstrap icons-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="/css/styles.css" rel="stylesheet" />
+    </head>
+    <body>
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container px-4 px-lg-5">
+                <a class="navbar-brand" href="#!">Start Bootstrap</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-lg-4">
+                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="#!">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#!">About</a></li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Shop</a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#!">All Products</a></li>
+                                <li><hr class="dropdown-divider" /></li>
+                                <li><a class="dropdown-item" href="#!">Popular Items</a></li>
+                                <li><a class="dropdown-item" href="#!">New Arrivals</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                        <button class="btn btn-outline-dark" type="submit">
+                            <i class="bi-cart-fill me-1"></i>
+                            Cart
+                            <span class="badge bg-dark text-white ms-1 rounded-pill">0</span>
+                        </button>
+                    </form>
+                </div>
             </div>
-            <div class="item-box_content">
-              <h3><a class="item-box_title" href="/item/13635" target="_blank">整形外科医院网站HTML5模板</a></h3>
-              <div class="item-box_category"><span><a target="_blank" href="/muban/yiliao">医疗/健康</a></span></div>
-              <div class="intro"> Vamary是整形外科HTML5模板，专为整形外科诊所、整容手术中心、儿科诊所、兽医、医疗诊所、诊断中心、私人诊所或私人医生等设计的。该模板基于最新的Bootstrap框架，包含易于阅读和理解的源代码...</div>
+        </nav>
+        <!-- Header-->
+        <header class="bg-dark py-5">
+            <div class="container px-4 px-lg-5 my-5">
+                <div class="text-center text-white">
+                    <h1 class="display-4 fw-bolder">Shop in style</h1>
+                    <p class="lead fw-normal text-white-50 mb-0">With this shop hompeage template</p>
+                </div>
             </div>
-            <div class="item-box_footer">
-              <div class="item-box_detailsItem"><i class="icon icon-rl sm"></i>更新时间：<span class="timeago" time="2023-04-01 09:43:12"></span></div>
-              <div class="item-box_detailsItem"><i class="icon icon-wenjianbao sm"></i>文件大小： 14.77M</div>
-              <div class="item-box_footerButtons"><a class="circleButton btn_like" _id="13635"><i class="icon icon-guanzhu big_24" title="点击收藏"></i></a></div>
-              <div class="item-box_alignBottom"><a class="btn_down" href="/item/13635" target="_blank">下载</a><a class="btn_preview" href="/item/13635/preview" target="_blank">在线预览</a></div>
+        </header>
+        <!-- Section-->
+        <section class="py-5">
+            <div class="container px-4 px-lg-5 mt-5">
+                <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
+                    <div class="col mb-5">
+                        <div class="card h-100">
+                            <!-- Product image-->
+                            <img class="card-img-top" src="https://dummyimage.com/450x300/dee2e6/6c757d.jpg" alt="..." />
+                            <!-- Product details-->
+                            <div class="card-body p-4">
+                                <div class="text-center">
+                                    <!-- Product name-->
+                                    <h5 class="fw-bolder">Fancy Product</h5>
+                                    <!-- Product price-->
+                                    $40.00 - $80.00
+                                </div>
+                            </div>
+                            <!-- Product actions-->
+                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">View options</a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col mb-5">
+                        <div class="card h-100">
+                            <!-- Sale badge-->
+                            <div class="badge bg-dark text-white position-absolute" style="top: 0.5rem; right: 0.5rem">Sale</div>
+                            <!-- Product image-->
+                            <img class="card-img-top" src="https://dummyimage.com/450x300/dee2e6/6c757d.jpg" alt="..." />
+                            <!-- Product details-->
+                            <div class="card-body p-4">
+                                <div class="text-center">
+                                    <!-- Product name-->
+                                    <h5 class="fw-bolder">Special Item</h5>
+                                    <!-- Product reviews-->
+                                    <div class="d-flex justify-content-center small text-warning mb-2">
+                                        <div class="bi-star-fill"></div>
+                                        <div class="bi-star-fill"></div>
+                                        <div class="bi-star-fill"></div>
+                                        <div class="bi-star-fill"></div>
+                                        <div class="bi-star-fill"></div>
+                                    </div>
+                                    <!-- Product price-->
+                                    <span class="text-muted text-decoration-line-through">$20.00</span>
+                                    $18.00
+                                </div>
+                            </div>
+                            <!-- Product actions-->
+                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Add to cart</a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col mb-5">
+                        <div class="card h-100">
+                            <!-- Sale badge-->
+                            <div class="badge bg-dark text-white position-absolute" style="top: 0.5rem; right: 0.5rem">Sale</div>
+                            <!-- Product image-->
+                            <img class="card-img-top" src="https://dummyimage.com/450x300/dee2e6/6c757d.jpg" alt="..." />
+                            <!-- Product details-->
+                            <div class="card-body p-4">
+                                <div class="text-center">
+                                    <!-- Product name-->
+                                    <h5 class="fw-bolder">Sale Item</h5>
+                                    <!-- Product price-->
+                                    <span class="text-muted text-decoration-line-through">$50.00</span>
+                                    $25.00
+                                </div>
+                            </div>
+                            <!-- Product actions-->
+                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Add to cart</a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col mb-5">
+                        <div class="card h-100">
+                            <!-- Product image-->
+                            <img class="card-img-top" src="https://dummyimage.com/450x300/dee2e6/6c757d.jpg" alt="..." />
+                            <!-- Product details-->
+                            <div class="card-body p-4">
+                                <div class="text-center">
+                                    <!-- Product name-->
+                                    <h5 class="fw-bolder">Popular Item</h5>
+                                    <!-- Product reviews-->
+                                    <div class="d-flex justify-content-center small text-warning mb-2">
+                                        <div class="bi-star-fill"></div>
+                                        <div class="bi-star-fill"></div>
+                                        <div class="bi-star-fill"></div>
+                                        <div class="bi-star-fill"></div>
+                                        <div class="bi-star-fill"></div>
+                                    </div>
+                                    <!-- Product price-->
+                                    $40.00
+                                </div>
+                            </div>
+                            <!-- Product actions-->
+                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Add to cart</a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col mb-5">
+                        <div class="card h-100">
+                            <!-- Sale badge-->
+                            <div class="badge bg-dark text-white position-absolute" style="top: 0.5rem; right: 0.5rem">Sale</div>
+                            <!-- Product image-->
+                            <img class="card-img-top" src="https://dummyimage.com/450x300/dee2e6/6c757d.jpg" alt="..." />
+                            <!-- Product details-->
+                            <div class="card-body p-4">
+                                <div class="text-center">
+                                    <!-- Product name-->
+                                    <h5 class="fw-bolder">Sale Item</h5>
+                                    <!-- Product price-->
+                                    <span class="text-muted text-decoration-line-through">$50.00</span>
+                                    $25.00
+                                </div>
+                            </div>
+                            <!-- Product actions-->
+                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Add to cart</a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col mb-5">
+                        <div class="card h-100">
+                            <!-- Product image-->
+                            <img class="card-img-top" src="https://dummyimage.com/450x300/dee2e6/6c757d.jpg" alt="..." />
+                            <!-- Product details-->
+                            <div class="card-body p-4">
+                                <div class="text-center">
+                                    <!-- Product name-->
+                                    <h5 class="fw-bolder">Fancy Product</h5>
+                                    <!-- Product price-->
+                                    $120.00 - $280.00
+                                </div>
+                            </div>
+                            <!-- Product actions-->
+                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">View options</a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col mb-5">
+                        <div class="card h-100">
+                            <!-- Sale badge-->
+                            <div class="badge bg-dark text-white position-absolute" style="top: 0.5rem; right: 0.5rem">Sale</div>
+                            <!-- Product image-->
+                            <img class="card-img-top" src="https://dummyimage.com/450x300/dee2e6/6c757d.jpg" alt="..." />
+                            <!-- Product details-->
+                            <div class="card-body p-4">
+                                <div class="text-center">
+                                    <!-- Product name-->
+                                    <h5 class="fw-bolder">Special Item</h5>
+                                    <!-- Product reviews-->
+                                    <div class="d-flex justify-content-center small text-warning mb-2">
+                                        <div class="bi-star-fill"></div>
+                                        <div class="bi-star-fill"></div>
+                                        <div class="bi-star-fill"></div>
+                                        <div class="bi-star-fill"></div>
+                                        <div class="bi-star-fill"></div>
+                                    </div>
+                                    <!-- Product price-->
+                                    <span class="text-muted text-decoration-line-through">$20.00</span>
+                                    $18.00
+                                </div>
+                            </div>
+                            <!-- Product actions-->
+                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Add to cart</a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col mb-5">
+                        <div class="card h-100">
+                            <!-- Product image-->
+                            <img class="card-img-top" src="https://dummyimage.com/450x300/dee2e6/6c757d.jpg" alt="..." />
+                            <!-- Product details-->
+                            <div class="card-body p-4">
+                                <div class="text-center">
+                                    <!-- Product name-->
+                                    <h5 class="fw-bolder">Popular Item</h5>
+                                    <!-- Product reviews-->
+                                    <div class="d-flex justify-content-center small text-warning mb-2">
+                                        <div class="bi-star-fill"></div>
+                                        <div class="bi-star-fill"></div>
+                                        <div class="bi-star-fill"></div>
+                                        <div class="bi-star-fill"></div>
+                                        <div class="bi-star-fill"></div>
+                                    </div>
+                                    <!-- Product price-->
+                                    $40.00
+                                </div>
+                            </div>
+                            <!-- Product actions-->
+                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Add to cart</a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
-          <div class="item-box">
-            <div class="item-box_imageContainer"><a href="/item/13633" target="_blank"><img alt="网页设计和开发机构HTML5模板" class="cover" width="300" src="http://imgs.bootstrapmb.com/2023/3/270335084.jpg"></a>
-              <div class="tagList-module"><a href="/tag/wangyesheji">网页设计</a><a href="/tag/ruanjiankaifagongsi">软件开发公司</a><a href="/tag/wangluogongsi">网络公司</a><a href="/tag/jishufuwu">技术服务</a><a href="/tag/oxentech">oxentech</a></div>
-            </div>
-            <div class="item-box_content">
-              <h3><a class="item-box_title" href="/item/13633" target="_blank">网页设计和开发机构HTML5模板</a></h3>
-              <div class="item-box_category"><span><a target="_blank" href="/muban/qiye">企业网站</a></span></div>
-              <div class="intro"> Oxentech是通用的营销和服务器类网页模板，时尚的界面设计采用插画风格。模板使用最新的Bootstrap框架编码，兼容手机端设备，而且很容易编辑。主要特色响应式布局Bootstrap v5.0.2...</div>
-            </div>
-            <div class="item-box_footer">
-              <div class="item-box_detailsItem"><i class="icon icon-rl sm"></i>更新时间：<span class="timeago" time="2023-04-01 09:41:45"></span></div>
-              <div class="item-box_detailsItem"><i class="icon icon-wenjianbao sm"></i>文件大小： 7.83M</div>
-              <div class="item-box_footerButtons"><a class="circleButton btn_like" _id="13633"><i class="icon icon-guanzhu big_24" title="点击收藏"></i></a></div>
-              <div class="item-box_alignBottom"><a class="btn_down" href="/item/13633" target="_blank">下载</a><a class="btn_preview" href="/item/13633/preview" target="_blank">在线预览</a></div>
-            </div>
-          </div>
-          <div class="item-box">
-            <div class="item-box_imageContainer"><a href="/item/13632" target="_blank"><img alt="5种漂亮的电子商务网页模板" class="cover" width="300" src="http://imgs.bootstrapmb.com/2023/3/271004160.jpg"></a>
-              <div class="tagList-module"><a href="/tag/zaixianshangdian">在线商店</a><a href="/tag/jingmeideshangcheng">精美的商城</a><a href="/tag/cssdianshang">css电商</a><a href="/tag/dianshangxiangmu">电商项目</a><a href="/tag/xiangyingshidianshang">响应式电商</a><a href="/tag/shofy">shofy</a></div>
-            </div>
-            <div class="item-box_content">
-              <h3><a class="item-box_title" href="/item/13632" target="_blank">5种漂亮的电子商务网页模板</a></h3>
-              <div class="item-box_category"><span><a target="_blank" href="/muban/qiye">企业网站</a></span></div>
-              <div class="intro"> Shofy是一个干净而现代的HTML5，Bootstrap电子商务模板。可以创建专业且具有视觉吸引力的在线商店模板。使用精心设计的UI趋势，包括产品列表、购物车、结帐流程等页面。高度可定制的代码在平板...</div>
-            </div>
-            <div class="item-box_footer">
-              <div class="item-box_detailsItem"><i class="icon icon-rl sm"></i>更新时间：<span class="timeago" time="2023-03-31 08:32:37"></span></div>
-              <div class="item-box_detailsItem"><i class="icon icon-wenjianbao sm"></i>文件大小： 17.78M</div>
-              <div class="item-box_footerButtons"><a class="circleButton btn_like" _id="13632"><i class="icon icon-guanzhu big_24" title="点击收藏"></i></a></div>
-              <div class="item-box_alignBottom"><a class="btn_down" href="/item/13632" target="_blank">下载</a><a class="btn_preview" href="/item/13632/preview" target="_blank">在线预览</a></div>
-            </div>
-          </div>
-          <div class="item-box">
-            <div class="item-box_imageContainer"><a href="/item/13631" target="_blank"><img alt="SEO营销服务创意网页模板" class="cover" width="300" src="http://imgs.bootstrapmb.com/2023/3/270948538.jpg"></a>
-              <div class="tagList-module"><a href="/tag/chuchuanggongsi">初创公司</a><a href="/tag/itgongsi">it公司</a><a href="/tag/ruanjiankaifashang">软件开发商</a><a href="/tag/jishufuwu">技术服务</a><a href="/tag/shishangui">时尚ui</a><a href="/tag/digitek">digitek</a></div>
-            </div>
-            <div class="item-box_content">
-              <h3><a class="item-box_title" href="/item/13631" target="_blank">SEO营销服务创意网页模板</a></h3>
-              <div class="item-box_category"><span><a target="_blank" href="/muban/qiye">企业网站</a></span></div>
-              <div class="intro"> Digitek是响应式现代设计的Bootstrap模板，可用于机构、初创公司、IT解决方案提供商、软件服务、创业公司和其他商业机构。主要特色Bootstrap5.1.3和Sass构建。响应任何设备创意...</div>
-            </div>
-            <div class="item-box_footer">
-              <div class="item-box_detailsItem"><i class="icon icon-rl sm"></i>更新时间：<span class="timeago" time="2023-03-31 08:29:50"></span></div>
-              <div class="item-box_detailsItem"><i class="icon icon-wenjianbao sm"></i>文件大小： 11.46M</div>
-              <div class="item-box_footerButtons"><a class="circleButton btn_like" _id="13631"><i class="icon icon-guanzhu big_24" title="点击收藏"></i></a></div>
-              <div class="item-box_alignBottom"><a class="btn_down" href="/item/13631" target="_blank">下载</a><a class="btn_preview" href="/item/13631/preview" target="_blank">在线预览</a></div>
-            </div>
-          </div>
-          <div class="item-box">
-            <div class="item-box_imageContainer"><a href="/item/13634" target="_blank"><img alt="响应式HTML5管理后台模板" class="cover" width="300" src="http://imgs.bootstrapmb.com/2023/3/300855261.jpg"></a>
-              <div class="tagList-module"><a href="/tag/jqueryhoutai">jquery后台</a><a href="/tag/bootstrap5houtai">bootstrap5后台</a><a href="/tag/guanlixitongkuangjia">管理系统框架</a><a href="/tag/crmjiemian">crm界面</a><a href="/tag/roksyn">roksyn</a></div>
-            </div>
-            <div class="item-box_content">
-              <h3><a class="item-box_title" href="/item/13634" target="_blank">响应式HTML5管理后台模板</a></h3>
-              <div class="item-box_category"><span><a target="_blank" href="/muban/houtai">后台管理</a></span></div>
-              <div class="intro"> Roksyn是响应式的bootstrap5管理后台模板，适用于所有主要的网络浏览器、台式机和所有智能手机设备。这是一个非常易于定制且对开发人员友好的html5模板。它拥有大量带有最新jQuery和Bo...</div>
-            </div>
-            <div class="item-box_footer">
-              <div class="item-box_detailsItem"><i class="icon icon-rl sm"></i>更新时间：<span class="timeago" time="2023-03-30 09:04:39"></span></div>
-              <div class="item-box_detailsItem"><i class="icon icon-wenjianbao sm"></i>文件大小： 16.74M</div>
-              <div class="item-box_footerButtons"><a class="circleButton btn_like" _id="13634"><i class="icon icon-guanzhu big_24" title="点击收藏"></i></a></div>
-              <div class="item-box_alignBottom"><a class="btn_down" href="/item/13634" target="_blank">下载</a><a class="btn_preview" href="/item/13634/preview" target="_blank">在线预览</a></div>
-            </div>
-          </div>
-          <div class="item-box">
-            <div class="item-box_imageContainer"><a href="/item/13630" target="_blank"><img alt="房屋维修翻新服务网页模板" class="cover" width="300" src="http://imgs.bootstrapmb.com/2023/3/270933323.jpg"></a>
-              <div class="tagList-module"><a href="/tag/wudingxiubu">屋顶修补</a><a href="/tag/fangwufanxin">房屋翻新</a><a href="/tag/jianzhuweihu">建筑维护</a><a href="/tag/jianzhugongsi">建筑公司</a><a href="/tag/bootstrap5">bootstrap5</a><a href="/tag/roofx">roofx</a></div>
-            </div>
-            <div class="item-box_content">
-              <h3><a class="item-box_title" href="/item/13630" target="_blank">房屋维修翻新服务网页模板</a></h3>
-              <div class="item-box_category"><span><a target="_blank" href="/muban/qiye">企业网站</a></span></div>
-              <div class="intro"> Roofx是一个高质量的HTML5模板，具有独特的风格和干净的设计。您可以将它用于多种用途，如屋顶修补、建筑维修、基础维护、翻新、等更多其他服务。主要特色Bootstrap5网格系统漂亮干净的设计清洁...</div>
-            </div>
-            <div class="item-box_footer">
-              <div class="item-box_detailsItem"><i class="icon icon-rl sm"></i>更新时间：<span class="timeago" time="2023-03-30 09:03:37"></span></div>
-              <div class="item-box_detailsItem"><i class="icon icon-wenjianbao sm"></i>文件大小： 9.19M</div>
-              <div class="item-box_footerButtons"><a class="circleButton btn_like" _id="13630"><i class="icon icon-guanzhu big_24" title="点击收藏"></i></a></div>
-              <div class="item-box_alignBottom"><a class="btn_down" href="/item/13630" target="_blank">下载</a><a class="btn_preview" href="/item/13630/preview" target="_blank">在线预览</a></div>
-            </div>
-          </div>
-          <div class="item-box">
-            <div class="item-box_imageContainer"><a href="/item/13605" target="_blank"><img alt="HTML5教育和在线课程网站模板" class="cover" width="300" src="http://imgs.bootstrapmb.com/2023/3/241129264.jpg"></a>
-              <div class="tagList-module"><a href="/tag/zaixiankecheng">在线课程</a><a href="/tag/jiaoyu">教育</a><a href="/tag/peixunjigou">培训机构</a><a href="/tag/daxue">大学</a><a href="/tag/bootstrap5">bootstrap5</a><a href="/tag/elearning">elearning</a></div>
-            </div>
-            <div class="item-box_content">
-              <h3><a class="item-box_title" href="/item/13605" target="_blank">HTML5教育和在线课程网站模板</a></h3>
-              <div class="item-box_category"><span><a target="_blank" href="/muban/jiaoyu">教育培训</a></span></div>
-              <div class="intro"> Elearning是教育类网站HTML5模板，可以作为在线课程学习或者培训机构网站。界面样式设计新颖使用插画风格的样式，模板使用最新的Bootstrap框架编码，很容易自定义设计。主要特色Bootst...</div>
-            </div>
-            <div class="item-box_footer">
-              <div class="item-box_detailsItem"><i class="icon icon-rl sm"></i>更新时间：<span class="timeago" time="2023-03-30 09:00:12"></span></div>
-              <div class="item-box_detailsItem"><i class="icon icon-wenjianbao sm"></i>文件大小： 1.96M</div>
-              <div class="item-box_footerButtons"><a class="circleButton btn_like" _id="13605"><i class="icon icon-guanzhu big_24" title="点击收藏"></i></a></div>
-              <div class="item-box_alignBottom"><a class="btn_down" href="/item/13605" target="_blank">下载</a><a class="btn_preview" href="/item/13605/preview" target="_blank">在线预览</a></div>
-            </div>
-          </div>
-          <div class="item-box">
-            <div class="item-box_imageContainer"><a href="/item/13603" target="_blank"><img alt="互联网业务提供商HTML模板" class="cover" width="300" src="http://imgs.bootstrapmb.com/2023/3/230759453.jpg"></a>
-              <div class="tagList-module"><a href="/tag/wangluoyewu">网络业务</a><a href="/tag/kuandaifuwu">宽带服务</a><a href="/tag/dianxinyewu">电信业务</a><a href="/tag/hulianwangfuwu">互联网服务</a><a href="/tag/subnet">subnet</a></div>
-            </div>
-            <div class="item-box_content">
-              <h3><a class="item-box_title" href="/item/13603" target="_blank">互联网业务提供商HTML模板</a></h3>
-              <div class="item-box_category"><span><a target="_blank" href="/muban/qiye">企业网站</a></span></div>
-              <div class="intro"> Subnet是互联网业务提供商HTML模板。适用各种网络服务提供商、卫星电视、宽带、在线电视、IPTV、电信公司和在线影院。模板包括2个引人注目的主页和15个美观的内页，模板是高度可定制的，在平板电脑...</div>
-            </div>
-            <div class="item-box_footer">
-              <div class="item-box_detailsItem"><i class="icon icon-rl sm"></i>更新时间：<span class="timeago" time="2023-03-29 08:45:27"></span></div>
-              <div class="item-box_detailsItem"><i class="icon icon-wenjianbao sm"></i>文件大小： 11.47M</div>
-              <div class="item-box_footerButtons"><a class="circleButton btn_like" _id="13603"><i class="icon icon-guanzhu big_24" title="点击收藏"></i></a></div>
-              <div class="item-box_alignBottom"><a class="btn_down" href="/item/13603" target="_blank">下载</a><a class="btn_preview" href="/item/13603/preview" target="_blank">在线预览</a></div>
-            </div>
-          </div>
-          <div class="item-box">
-            <div class="item-box_imageContainer"><a href="/item/13602" target="_blank"><img alt="水产养殖BootstrapHTML模板" class="cover" width="300" src="http://imgs.bootstrapmb.com/2023/3/230741551.jpg"></a>
-              <div class="tagList-module"><a href="/tag/shuichanyangzhi">水产养殖</a><a href="/tag/yangyu">养鱼</a><a href="/tag/nongchang">农场</a><a href="/tag/bootstraphtml">bootstraphtml</a><a href="/tag/aqutex">aqutex</a></div>
-            </div>
-            <div class="item-box_content">
-              <h3><a class="item-box_title" href="/item/13602" target="_blank">水产养殖BootstrapHTML模板</a></h3>
-              <div class="item-box_category"><span><a target="_blank" href="/muban/qiye">企业网站</a></span></div>
-              <div class="intro"> Aqutex是专为水产养殖设计的HTML模板。您可以将模板用于不同的目的，例如水产养殖、养鱼、农场饲养、鱼类生产，以及类似的网站。主要特色100%流体响应清洁代码在真实设备上测试灵活的布局平面、现代和...</div>
-            </div>
-            <div class="item-box_footer">
-              <div class="item-box_detailsItem"><i class="icon icon-rl sm"></i>更新时间：<span class="timeago" time="2023-03-29 08:44:02"></span></div>
-              <div class="item-box_detailsItem"><i class="icon icon-wenjianbao sm"></i>文件大小： 11.68M</div>
-              <div class="item-box_footerButtons"><a class="circleButton btn_like" _id="13602"><i class="icon icon-guanzhu big_24" title="点击收藏"></i></a></div>
-              <div class="item-box_alignBottom"><a class="btn_down" href="/item/13602" target="_blank">下载</a><a class="btn_preview" href="/item/13602/preview" target="_blank">在线预览</a></div>
-            </div>
-          </div>
-          <div class="item-box">
-            <div class="item-box_imageContainer"><a href="/item/13629" target="_blank"><img alt="IT解决方案和服务公司网页模板" class="cover" width="300" src="http://imgs.bootstrapmb.com/2023/3/270927201.jpg"></a>
-              <div class="tagList-module"><a href="/tag/daili">代理</a><a href="/tag/itjiejuefangan">it解决方案</a><a href="/tag/yingxiao">营销</a><a href="/tag/zixun">咨询</a><a href="/tag/fuwugongsi">服务公司</a><a href="/tag/murtes">murtes</a></div>
-            </div>
-            <div class="item-box_content">
-              <h3><a class="item-box_title" href="/item/13629" target="_blank">IT解决方案和服务公司网页模板</a></h3>
-              <div class="item-box_category"><span><a target="_blank" href="/muban/qiye">企业网站</a></span></div>
-              <div class="intro"> Murtes是简洁现代的IT解决方案和服务网页模板，适用于任何商业网站，比如代理、营销、咨询、初创、IT 解决方案和服务公司。所有文件和代码都井井有条，并进行了很好的注释。这个模板是用bootstra...</div>
-            </div>
-            <div class="item-box_footer">
-              <div class="item-box_detailsItem"><i class="icon icon-rl sm"></i>更新时间：<span class="timeago" time="2023-03-28 09:32:10"></span></div>
-              <div class="item-box_detailsItem"><i class="icon icon-wenjianbao sm"></i>文件大小： 8.16M</div>
-              <div class="item-box_footerButtons"><a class="circleButton btn_like" _id="13629"><i class="icon icon-guanzhu big_24" title="点击收藏"></i></a></div>
-              <div class="item-box_alignBottom"><a class="btn_down" href="/item/13629" target="_blank">下载</a><a class="btn_preview" href="/item/13629/preview" target="_blank">在线预览</a></div>
-            </div>
-          </div>
-        </div>
-        <div class="pagemain"></div>
-      </div>
-      <div class="index_more"><a href="/muban" class="btn_com light">查看更多</a></div>
-    </div>
-    <div class="home-recommended">
-      <div class="main">
-        <div class="home-section-header">
-          <h4>精品推荐</h4>
-        </div>
-        <div class="item-list2">
-          <div class="item-box">
-            <div class="item-box_imageContainer"><a href="/item/8727"><img alt="绿色农产品电商网站HTML模板" class="cover" width="300" src="http://imgs.bootstrapmb.com/2020/9/020918184.jpg"></a>
-              <div class="tagList-module"><a href="/tag/nongchanpin">农产品</a><a href="/tag/nongyegongsi">农业公司</a><a href="/tag/shucaizaixianshangdian">蔬菜在线商店</a><a href="/tag/guoshudianshang">果蔬电商</a><a href="/tag/lvsedianshanggouwu">绿色电商购物</a></div>
-            </div>
-            <div class="item-box_content">
-              <h3><a class="item-box_title" href="/item/8727">绿色农产品电商网站bootstrap模板</a></h3>
-              <div class="item-box_category"><span><a href="/muban/dianshang" title="响应式电子商务html模板">电子商务</a></span></div>
-              <div class="intro"> TazZA是农产品电商网站HTML5模板，设计完美，适合各类农业企业，农产品在线购物商店。模板使用Bootstrap框架编码，充分响应式布局自适用手机端设备。主要特色干净,专业和独特的设计充分响应用H...</div>
-            </div>
-            <div class="item-box_footer">
-              <div class="item-box_price"></div>
-              <div class="item-box_detailsItem"><i class="icon icon-rl sm"></i>更新时间：<span class="timeago" time="2020/9/2 9:19:34"></span></div>
-              <div class="item-box_detailsItem"><i class="icon icon-wenjianbao sm"></i>文件大小: 10.93M</div>
-              <div class="item-box_footerButtons"><a class="circleButton btn_like" _id="8727"><i class="icon icon-guanzhu big_24 " title="点击收藏"></i></a></div>
-              <div class="item-box_alignBottom"><a class="btn_down" href="/item/8727" target="_blank">下载</a><a class="btn_preview" href="/item/8727/preview" target="_blank">在线预览</a></div>
-            </div>
-          </div>
-          <div class="item-box">
-            <div class="item-box_imageContainer"><a href="/item/2820"><img alt="Bootstrap职位招聘人才网HTML模板" class="cover" width="300" src="http://imgs.bootstrapmb.com/2018/11/120311168.png"></a>
-              <div class="tagList-module"><a href="/tag/zhaopin">招聘</a><a href="/tag/rencaiwang">人才网</a><a href="/tag/zhiweizhaopin">职位招聘</a><a href="/tag/bootstrap">bootstrap</a><a href="/tag/ziyouzhiyeshichang">自由职业市场</a></div>
-            </div>
-            <div class="item-box_content">
-              <h3><a class="item-box_title" href="/item/2820">Bootstrap职位招聘人才网HTML模板</a></h3>
-              <div class="item-box_category"><span><a href="/muban/qiye" title="响应式企业网站html模板">企业网站</a></span></div>
-              <div class="intro"> Jobguru是现代招聘信息网站Html模板，使用Bootstrap4构造的模板，设计连接求职和雇主。这是精心设计的全面了解招聘业务。适用于专业招聘网站展示高级特性功能为用户服务。Jobguru是一个...</div>
-            </div>
-            <div class="item-box_footer">
-              <div class="item-box_price"></div>
-              <div class="item-box_detailsItem"><i class="icon icon-rl sm"></i>更新时间：<span class="timeago" time="2019/10/21 13:58:19"></span></div>
-              <div class="item-box_detailsItem"><i class="icon icon-wenjianbao sm"></i>文件大小: 3.83M</div>
-              <div class="item-box_footerButtons"><a class="circleButton btn_like" _id="2820"><i class="icon icon-guanzhu big_24 " title="点击收藏"></i></a></div>
-              <div class="item-box_alignBottom"><a class="btn_down" href="/item/2820" target="_blank">下载</a><a class="btn_preview" href="/item/2820/preview" target="_blank">在线预览</a></div>
-            </div>
-          </div>
-          <div class="item-box">
-            <div class="item-box_imageContainer"><a href="/item/11354"><img alt="药房和医疗商店电子商务HTML模板" class="cover" width="300" src="http://imgs.bootstrapmb.com/2021/10/101059504.jpg"></a>
-              <div class="tagList-module"><a href="/tag/yaodian">药店</a><a href="/tag/yiliaodianshang">医疗电商</a><a href="/tag/yiliaoshangdian">医疗商店</a><a href="/tag/yaopinwangshangshangdian">药品网上商店</a><a href="/tag/wangshangyaodian">网上药店</a></div>
-            </div>
-            <div class="item-box_content">
-              <h3><a class="item-box_title" href="/item/11354">药房和医疗商店电子商务模板</a></h3>
-              <div class="item-box_category"><span><a href="/muban/dianshang" title="响应式电子商务html模板">电子商务</a></span></div>
-              <div class="intro"> Hospitania是药房和医疗健康商店的电子商务网页模板。这套bootstrap模板设计适合网上药店、诊所、医疗供应商,医疗商店、药房商店,药品店电子商务网站。充分响应式SEO友好代码有助于你的网页...</div>
-            </div>
-            <div class="item-box_footer">
-              <div class="item-box_price"></div>
-              <div class="item-box_detailsItem"><i class="icon icon-rl sm"></i>更新时间：<span class="timeago" time="2021/10/10 11:00:58"></span></div>
-              <div class="item-box_detailsItem"><i class="icon icon-wenjianbao sm"></i>文件大小: 7.80M</div>
-              <div class="item-box_footerButtons"><a class="circleButton btn_like" _id="11354"><i class="icon icon-guanzhu big_24 " title="点击收藏"></i></a></div>
-              <div class="item-box_alignBottom"><a class="btn_down" href="/item/11354" target="_blank">下载</a><a class="btn_preview" href="/item/11354/preview" target="_blank">在线预览</a></div>
-            </div>
-          </div>
-          <div class="item-box">
-            <div class="item-box_imageContainer"><a href="/item/6310"><img alt="两套HTML5管理后台模板静态框架" class="cover" width="300" src="http://imgs.bootstrapmb.com/2019/10/170919115.png"></a>
-              <div class="tagList-module"><a href="/tag/houtaimoban">后台模板</a><a href="/tag/guanlihoutai">管理后台</a><a href="/tag/html5houtai">html5后台</a><a href="/tag/houtaikuangjia">后台框架</a><a href="/tag/bootstrapkuangjia">bootstrap框架</a></div>
-            </div>
-            <div class="item-box_content">
-              <h3><a class="item-box_title" href="/item/6310">两套HTML5管理后台模板静态框架</a></h3>
-              <div class="item-box_category"><span><a href="/muban/houtai" title="响应式后台管理html模板">后台管理</a></span></div>
-              <div class="intro"> Agency是通用的HTML5管理后台模板，简单好用的Web管理系统前端页面。基于Bootstrap框架实现的后台UI页面，这套模板集成常用的前端js插件和ui页面元素，可以帮助开发人员提高软件的开发...</div>
-            </div>
-            <div class="item-box_footer">
-              <div class="item-box_price"></div>
-              <div class="item-box_detailsItem"><i class="icon icon-rl sm"></i>更新时间：<span class="timeago" time="2019/10/21 13:58:19"></span></div>
-              <div class="item-box_detailsItem"><i class="icon icon-wenjianbao sm"></i>文件大小: 8.06M</div>
-              <div class="item-box_footerButtons"><a class="circleButton btn_like" _id="6310"><i class="icon icon-guanzhu big_24 " title="点击收藏"></i></a></div>
-              <div class="item-box_alignBottom"><a class="btn_down" href="/item/6310" target="_blank">下载</a><a class="btn_preview" href="/item/6310/preview" target="_blank">在线预览</a></div>
-            </div>
-          </div>
-          <div class="item-box">
-            <div class="item-box_imageContainer"><a href="/item/10619"><img alt="vue-elementUI后台管理系统模板" class="cover" width="300" src="http://imgs.bootstrapmb.com/2021/7/171026172.jpg"></a>
-              <div class="tagList-module"><a href="/tag/vueelementuihoutai">vueelementui后台</a><a href="/tag/vuehoutaiguanlixitong">vue后台管理系统</a><a href="/tag/elementui">elementui</a><a href="/tag/vuejshoutai">vuejs后台</a><a href="/tag/shangpinguanlixitong">商品管理系统</a></div>
-            </div>
-            <div class="item-box_content">
-              <h3><a class="item-box_title" href="/item/10619">vue-elementUI后台管理系统模板</a></h3>
-              <div class="item-box_category"><span><a href="/muban/houtai" title="响应式后台管理html模板">后台管理</a></span></div>
-              <div class="intro"> vue-elementUI本项目的定位是后台管理系统，已经完成模块有用户管理、菜单管理、角色管理、公司管理、权限管理、支付配置。使用前端技术：vue2 、vuex 、vue-router、 webpa...</div>
-            </div>
-            <div class="item-box_footer">
-              <div class="item-box_price"></div>
-              <div class="item-box_detailsItem"><i class="icon icon-rl sm"></i>更新时间：<span class="timeago" time="2021/7/17 22:28:10"></span></div>
-              <div class="item-box_detailsItem"><i class="icon icon-wenjianbao sm"></i>文件大小: 5.58M</div>
-              <div class="item-box_footerButtons"><a class="circleButton btn_like" _id="10619"><i class="icon icon-guanzhu big_24 " title="点击收藏"></i></a></div>
-              <div class="item-box_alignBottom"><a class="btn_down" href="/item/10619" target="_blank">下载</a><a class="btn_preview" href="/item/10619/preview" target="_blank">在线预览</a></div>
-            </div>
-          </div>
-          <div class="item-box">
-            <div class="item-box_imageContainer"><a href="/item/4857"><img alt="红色单页医疗护理整容医院网页HTML模板" class="cover" width="300" src="http://imgs.bootstrapmb.com/2019/5/230231242.png"></a>
-              <div class="tagList-module"><a href="/tag/danyehtml">单页html</a><a href="/tag/yiliao">医疗</a><a href="/tag/jiankanghuli">健康护理</a><a href="/tag/zhengrongyiyuan">整容医院</a><a href="/tag/boostrap">boostrap</a></div>
-            </div>
-            <div class="item-box_content">
-              <h3><a class="item-box_title" href="/item/4857">单页医疗护理整容医院网页HTML模板</a></h3>
-              <div class="item-box_category"><span><a href="/muban/yiliao" title="响应式医疗/健康html模板">医疗/健康</a></span></div>
-              <div class="intro"> Medila是一个创意的单页Html模板，响应式的Boostrap着陆页模板，可作为一个医疗、护理、健康和整容医院的网页，眼睛、面部、牙科保健或网站。主要特色100%响应式单页滚动效果Bootstra...</div>
-            </div>
-            <div class="item-box_footer">
-              <div class="item-box_price"></div>
-              <div class="item-box_detailsItem"><i class="icon icon-rl sm"></i>更新时间：<span class="timeago" time="2019/10/21 13:58:19"></span></div>
-              <div class="item-box_detailsItem"><i class="icon icon-wenjianbao sm"></i>文件大小: 4.29M</div>
-              <div class="item-box_footerButtons"><a class="circleButton btn_like" _id="4857"><i class="icon icon-guanzhu big_24 " title="点击收藏"></i></a></div>
-              <div class="item-box_alignBottom"><a class="btn_down" href="/item/4857" target="_blank">下载</a><a class="btn_preview" href="/item/4857/preview" target="_blank">在线预览</a></div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="boot_foot">
-      <div class="foot_container">
-        <li><i class="icon icon-biaoqian sm"></i><a href="/tags" title="Bootstrap模板库">标签查找</a><span class="split">|</span><a href="/about">关于我们</a><span class="split">|</span><a href="/about/rule">用户协议</a><span class="split">|</span><i class="icon icon-daima sm"></i><a href="/tools/css" title="代码压缩格式化工具">格式化工具</a><span class="split">|</span>bootstrapmb.com 版权所有
-          <a target="_blank" rel="nofollow" href='https://beian.miit.gov.cn/'>苏ICP备20015882号-5</a>
-        </li>
-        <li><a href="/svgbg">背景样式编辑器</a><span class="split">|</span><a href="/cssbutton">按钮样式编辑器</a><span class="split">|</span><a href="/h5bg">背景动效编辑器</a><span class="split">|</span><a href="/photogrid">图片布局编辑器</a></li>
-      </div>
-    </div>
-    <div class='black-overlay'></div>
-    <div id='message_container'>
-      <div id='error'></div>
-    </div>
-    <div class='block-sidebar'>
-      <div class='block-sidebar-item feedback' title='意见反馈'><i class='icon icon-fankui2'></i></div>
-      <div class='block-sidebar-item backtop' title='返回顶部'><i class='icon icon-xiangshang'></i></div>
-    </div>
-    <script src="/bundles/com?v=uIVvi1RayQ8KbOLAuz_YVb10K8MR_JNwsOqf9XekBfM1"></script>
-  </body>
-
+        </section>
+        <!-- Footer-->
+        <footer class="py-5 bg-dark">
+            <div class="container"><p class="m-0 text-center text-white">Copyright &copy; Your Website 2023</p></div>
+        </footer>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="/js/scripts.js"></script>
+    </body>
 </html>
